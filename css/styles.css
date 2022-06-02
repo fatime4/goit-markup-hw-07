@@ -220,6 +220,7 @@ img {
 .container--form {
   padding-top: 94px;
   padding-bottom: 94px;
+  background-color: #ffffff;
 }
 
 .hero--form {
@@ -262,12 +263,8 @@ img {
 
 /* Переваги */
 
-.works-box {
-  padding-bottom: 94px;
-}
-
-.container--color {
-  background-color: #ffffff;
+.works--form {
+  padding-top: 0;
 }
 
 .section-box {
@@ -275,6 +272,7 @@ img {
 }
 
 .section-box__item {
+  position: relative;
   margin-right: 30px;
 }
 
@@ -322,11 +320,7 @@ img {
 
 /* Чим ми займаємось */
 
-.label-box {
-  position: relative;
-}
-
-.label {
+.section-box__label {
   position: absolute;
   width: 100%;
   padding: 27px 0;
