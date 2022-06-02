@@ -447,7 +447,7 @@ img {
   padding-bottom: 60px;
 }
 
-.footer-centered {
+.footer--centered {
   display: flex;
   align-items: baseline;
 }
@@ -491,9 +491,9 @@ img {
   margin-left: 70px;
 }
 
-.footer-title {
+.footer-socials__title,
+.subscribe-label {
   color: var(--primary-white-color);
-
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -501,18 +501,18 @@ img {
   text-transform: uppercase;
 }
 
-.footer .socials {
+.footer-socials__list {
   margin-top: 20px;
 }
 
-.footer .socials__link {
+.footer-socials__link {
   color: var(--primary-white-color);
   background-color: rgba(255, 255, 255, 0.1);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer .socials__link:hover,
-.footer .socials__link:focus {
+.footer-socials__link:hover,
+.footer-socials__link:focus {
   background-color: var(--accent-color);
 }
 
@@ -523,12 +523,12 @@ img {
   margin-right: auto;
 }
 
-.form-title {
+.subscribe-form__title {
   display: block;
   margin-bottom: 20px;
 }
 
-.form-input {
+.subscribe-form__input {
   width: 358px;
   height: 50px;
   margin-right: 12px;
@@ -540,16 +540,11 @@ img {
   border-radius: 4px;
 }
 
-.subscribe-btn {
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-color: transparent;
+.subscribe-form__icon {
+  margin-left: 10px;
 }
 
-.btn-txt {
-  margin-right: 10px;
-}
-
-.subscribe-btn {
+.subscribe-form__btn {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -563,6 +558,8 @@ img {
   letter-spacing: 0.06em;
   cursor: pointer;
   border-radius: 4px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-color: transparent;
 }
 
 /* Модальне вікно */
@@ -601,7 +598,7 @@ img {
   border-radius: 4px;
 }
 
-.modal-close-btn {
+.modal__close-btn {
   position: absolute;
   top: 8px;
   right: 8px;
@@ -617,12 +614,12 @@ img {
   cursor: pointer;
 }
 
-.close-btn {
+.modal__close-icon {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-close-btn:hover .close-btn,
-.modal-close-btn:focus .close-btn {
+.modal__close-btn:hover .modal__close-icon,
+.modal__close-btn:focus .modal__close-icon {
   fill: var(--accent-color);
 }
 
