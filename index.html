@@ -21,11 +21,11 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header class="page-header">
+    <header class="header">
       <!--Навігація-->
       <div class="container header-box">
         <nav class="nav-box">
-          <a href="./index.html" class="logo"><span class="logo-blue">Web</span>Studio</a>
+          <a href="./index.html" class="logo"><span class="logo--blue">Web</span>Studio</a>
           <ul class="list header-navigation">
             <li class="list-item">
               <a href="./index.html" class="header-navigation__link current">Студия</a>
@@ -39,9 +39,12 @@
           </ul>
         </nav>
         <!--Контакти-->
-        <ul class="list contact-list">
+        <ul class="list header-contact">
           <li class="list-item">
-            <a href="mailto:info@devstudio.com" class="header-navigation__link contact-link">
+            <a
+              class="header-navigation__link header-contact__link"
+              href="mailto:info@devstudio.com"
+            >
               <svg class="mail" width="16" height="12">
                 <use href="./images/icons.svg#icon-envelope"></use>
               </svg>
@@ -49,7 +52,7 @@
             >
           </li>
           <li class="list-item">
-            <a href="tel:+380961111111" class="header-navigation__link contact-link">
+            <a class="header-navigation__link header-contact__link" href="tel:+380961111111">
               <svg class="phone" width="10" height="16">
                 <use href="./images/icons.svg#icon-smartphone"></use>
               </svg>
@@ -368,7 +371,7 @@
     <footer class="footer">
       <div class="container">
         <div class="footer-contacts">
-          <a href="./index.html" class="logo"><span class="logo-blue">Web</span>Studio</a>
+          <a href="./index.html" class="logo"><span class="logo--blue">Web</span>Studio</a>
           <address class="address">
             <ul class="list">
               <li>
