@@ -501,7 +501,9 @@ img {
   text-transform: uppercase;
 }
 
-.footer-socials__list {
+.footer-socials__list--position {
+  display: flex;
+  justify-content: center;
   margin-top: 20px;
 }
 
