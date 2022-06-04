@@ -5,12 +5,12 @@
   .section-box__item {
     position: relative;
     margin-right: 30px;
+
+    &:last-child {
+      margin-right: 0px;
+    }
   }
-  
-  .section-box__item:last-child {
-    margin-right: 0px;
-  }
-  
+    
   .benefits__icon {
     display: flex;
     align-items: center;
