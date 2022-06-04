@@ -20,8 +20,8 @@
 
 body {
     font-family: 'Roboto', 'sans-serif';
-    color: var(--primary-text-color);
-    background-color: var(--primary-white-color);
+    color: $primaryTextColor;
+    background-color: $whiteColor;
     font-size: 14px;
     letter-spacing: 0.03em;
   }
