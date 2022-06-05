@@ -16,7 +16,8 @@
 }
 
 .header__list-item {
-  display: inline-block;
+  @include icon-form-color(display);
+  // display: inline-block;
 
   &:not(:last-child) {
     margin-right: 50px;
@@ -24,8 +25,9 @@
 }
 
 .header-contact__icon-envelope {
-  display: inline-block;
-  fill: currentColor;
+  @include icon-form-color;
+  // display: inline-block;
+  // fill: currentColor;
   width: 16px;
   height: 12px;
   margin-right: 10px;
@@ -33,17 +35,18 @@
 }
 
 .header-contact__icon-phone {
-  display: inline-block;
-  fill: currentColor;
+  @include icon-form-color;
+  // display: inline-block;
+  // fill: currentColor;
   width: 10px;
   height: 16px;
   margin-right: 10px;
 }
 
 .header-contact__link {
-  display: flex;
-  align-items: baseline;
-  text-decoration: none;
+  @include flex(baseline);
+  // display: flex;
+  // align-items: baseline;
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;

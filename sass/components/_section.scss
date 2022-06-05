@@ -13,7 +13,8 @@
 }
 
 .section-box {
-  display: flex;
+  @include flex;
+  // display: flex;
 }
 
 .team__item,

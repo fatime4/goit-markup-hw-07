@@ -6,9 +6,9 @@
 
 @mixin flex() {
   display: flex;
-  //   align-items: $align;
-  //   justify-content: $justify;
 }
 
-@mixin icon-form-color {
+@mixin icon-form-color() {
+  display: inline-block;
+  fill: currentColor;
 }
