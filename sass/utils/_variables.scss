@@ -1,14 +1,28 @@
+// Text color
 $primaryTextColor: #757575;
 $titleTextColor: #212121;
+
+// Main color
 $accentColor: #2196f3;
-$whiteColor: #FFFFFF;
+$whiteColor: #ffffff;
 $blackColor: #000000;
-$primaryBackgroundColor: #f5f4fa;
 $accentHoverColor: #188ce8;
-$headerBorderColor: #ececec;
-$portfolioCardsBorder: #eeeeee;
-$iconCurrentColor: #afb1b8;
+
+// Background color
+$primaryBackgroundColor: #f5f4fa;
 $secondaryBackgroundColor: #2f303a;
 
+// Icon color
+$iconCurrentColor: #afb1b8;
+
+// Border color
+$headerBorderColor: #ececec;
+$portfolioCardsBorder: #eeeeee;
+
+// Font-style
 $font-body: 'Roboto', sans-serif;
 $font-logo: 'Raleway', sans-serif;
+
+// Flex-box
+$align: center;
+$justify: center;

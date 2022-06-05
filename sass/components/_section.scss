@@ -1,24 +1,22 @@
 .section-title {
-    color: $titleTextColor;
-    font-size: 36px;
-    line-height: 1.17;
-    text-align: center;
-    margin-bottom: 50px;
-  }
+  color: $titleTextColor;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  margin-bottom: 50px;
+}
 
+.container--form {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  background-color: $whiteColor;
+}
 
+.section-box {
+  display: flex;
+}
 
-  .container--form {
-    padding-top: 94px;
-    padding-bottom: 94px;
-    background-color: $whiteColor;
-  }
-  
-  .section-box {
-    display: flex;
-  }
-
-  .team__item,
+.team__item,
 .portfolio-cards__item--geometry {
   display: block;
   margin-right: 30px;
@@ -39,4 +37,3 @@
   bottom: 0;
   left: 0;
 }
-
