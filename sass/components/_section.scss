@@ -8,17 +8,16 @@
 
 .container--form {
   padding-top: 94px;
-  // padding-bottom: 94px;
+  padding-bottom: 94px;
   background-color: $whiteColor;
+}
 
-  &:not(:first-child) {
-    padding-bottom: 94px;
-  }
+.container__benefits {
+  padding-bottom: 0;
 }
 
 .section-box {
-  @include flex;
-  // display: flex;
+  display: flex;
 }
 
 .team__item,
